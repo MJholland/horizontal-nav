@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  background-color: lightgrey;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: darkgrey;
+  border: 2px solid black;
+}
+
+h1 {
+  font-family: "Bevan", cursive;
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+nav li {
+  text-align: center;
+  background-color: maroon;
+  border-radius: .25em;
+  display: inline-block;
+  padding: .5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li:hover {
+  background-color: red;
+}
